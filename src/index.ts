@@ -1,5 +1,7 @@
 import './index.css';
-import { MyClass } from './example-unit';
+import { DateN } from './date-unit';
 
-const a = new MyClass(2);
-console.log('number is', a.get());
+const a = new DateN();
+const b = a.get();
+console.log('Time is', b);
+
